@@ -1,28 +1,34 @@
 {
   "schema_version": "1.0",
   "bundle_id": "eledia-default",
-  "bundle_version": "2026.04.1",
+  "bundle_version": "2026.04.2",
   "generated_at": "2026-04-05T12:00:00Z",
   "language": "de",
   "questions": [
     {
       "id": "checkin-0001",
       "ziel": "checkin",
-      "kategorie": ["stimmung", "energie"],
+      "kategorie": [
+        "stimmung",
+        "energie"
+      ],
       "frage": "Auf einer Skala von 1 bis 10: Wie viel Energie bringst du heute mit?",
       "hat_antwort": false,
       "sprache": "de",
-      "autor": "eLeDia Redaktion",
       "lizenz": "CC-BY-4.0",
       "version": "1",
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
-      "updated_at": "2026-04-05T10:00:00Z"
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
     },
     {
       "id": "checkin-0002",
       "ziel": "checkin",
-      "kategorie": ["kennenlernen", "eisbrecher"],
+      "kategorie": [
+        "kennenlernen",
+        "eisbrecher"
+      ],
       "frage": "Welches Buch, welcher Film oder welche Serie hat dich zuletzt überrascht — und warum?",
       "hat_antwort": false,
       "sprache": "de",
@@ -30,12 +36,132 @@
       "version": "1",
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
-      "updated_at": "2026-04-05T10:00:00Z"
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "checkin-0003",
+      "ziel": "checkin",
+      "kategorie": [
+        "arbeitsmodus",
+        "fokus"
+      ],
+      "frage": "Was ist die eine Sache, die diesen Tag zu einem guten Tag macht, wenn du sie heute schaffst?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "checkin-0004",
+      "ziel": "checkin",
+      "kategorie": [
+        "stimmung"
+      ],
+      "frage": "Wenn dein heutiger Gemütszustand ein Wetterbericht wäre — wie sähe die Vorhersage aus?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "checkin-0005",
+      "ziel": "checkin",
+      "kategorie": [
+        "beziehung",
+        "kennenlernen"
+      ],
+      "frage": "Mit wem im Team hattest du in den letzten Tagen den spannendsten Austausch, und worüber?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "checkin-0006",
+      "ziel": "checkin",
+      "kategorie": [
+        "persoenliche-entwicklung"
+      ],
+      "frage": "Was hast du in den letzten zwei Wochen ausprobiert, was du vorher noch nie gemacht hast?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "checkin-0007",
+      "ziel": "checkin",
+      "kategorie": [
+        "eisbrecher"
+      ],
+      "frage": "Wenn du heute einen Superheldennamen tragen müsstest, basierend auf deiner Stimmung: Wie würdest du heißen?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "checkin-0008",
+      "ziel": "checkin",
+      "kategorie": [
+        "fokus",
+        "arbeitsmodus"
+      ],
+      "frage": "Was lenkt dich gerade am meisten ab, und wie kannst du es bis zum Ende des Meetings parken?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "checkin-0009",
+      "ziel": "checkin",
+      "kategorie": [
+        "energie",
+        "stimmung"
+      ],
+      "frage": "Wenn du deine heutige Energie als Farbe darstellen müsstest — welche wäre es und warum?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
     },
     {
       "id": "checkout-0001",
       "ziel": "checkout",
-      "kategorie": ["ausblick", "aktion"],
+      "kategorie": [
+        "ausblick",
+        "aktion"
+      ],
       "frage": "Was ist der eine konkrete Schritt, den du bis zum nächsten Treffen umsetzen willst?",
       "hat_antwort": false,
       "sprache": "de",
@@ -43,42 +169,132 @@
       "version": "1",
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
-      "updated_at": "2026-04-05T10:00:00Z"
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
     },
     {
-      "id": "funfact-0001",
-      "ziel": "funfact",
-      "kategorie": ["natur"],
-      "frage": "Wie viele Herzen hat ein Oktopus?",
-      "hat_antwort": true,
-      "antwort": "Drei. Zwei pumpen Blut durch die Kiemen, das dritte durch den restlichen Körper — und es stoppt beim Schwimmen, weshalb Oktopoden lieber kriechen.",
+      "id": "checkout-0002",
+      "ziel": "checkout",
+      "kategorie": [
+        "feedback",
+        "verbesserung"
+      ],
+      "frage": "Was würdest du beim nächsten Mal anders machen, damit wir gemeinsam produktiver sind?",
+      "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
       "version": "1",
       "status": "published",
-      "link": "https://de.wikipedia.org/wiki/Kraken",
       "created_at": "2026-04-05T10:00:00Z",
-      "updated_at": "2026-04-05T10:00:00Z"
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
     },
     {
-      "id": "zitat-0001",
-      "ziel": "zitat",
-      "kategorie": ["lernen", "wandel"],
-      "frage": "Wenn du immer nur das tust, was du schon immer getan hast, wirst du immer nur das bekommen, was du schon immer bekommen hast.",
+      "id": "checkout-0003",
+      "ziel": "checkout",
+      "kategorie": [
+        "wertschaetzung",
+        "beziehung"
+      ],
+      "frage": "Wem im Team möchtest du heute ein ehrliches Dankeschön für etwas Konkretes aussprechen?",
       "hat_antwort": false,
       "sprache": "de",
-      "autor": "eLeDia Redaktion",
-      "quelle": "Henry Ford (zugeschrieben)",
-      "lizenz": "CC0-1.0",
+      "lizenz": "CC-BY-4.0",
       "version": "1",
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
-      "updated_at": "2026-04-05T10:00:00Z"
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "checkout-0004",
+      "ziel": "checkout",
+      "kategorie": [
+        "stimmung",
+        "energie"
+      ],
+      "frage": "Wie fühlst du dich jetzt im Vergleich zum Beginn des Meetings?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "checkout-0005",
+      "ziel": "checkout",
+      "kategorie": [
+        "ausblick"
+      ],
+      "frage": "Was nimmst du aus diesem Termin mit, das du noch heute Abend jemandem erzählen möchtest?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "checkout-0006",
+      "ziel": "checkout",
+      "kategorie": [
+        "aktion",
+        "verbesserung"
+      ],
+      "frage": "Welche eine Entscheidung ist hier gefallen, und wer ist dafür verantwortlich, sie nachzuverfolgen?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "checkout-0007",
+      "ziel": "checkout",
+      "kategorie": [
+        "feedback"
+      ],
+      "frage": "Was war heute besonders wertvoll für dich — und was hätte ruhig weggelassen werden können?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "checkout-0008",
+      "ziel": "checkout",
+      "kategorie": [
+        "wertschaetzung"
+      ],
+      "frage": "Welcher Beitrag aus der Runde hat dich am meisten zum Nachdenken gebracht?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
     },
     {
       "id": "retro-0001",
       "ziel": "retro",
-      "kategorie": ["was-lief-gut", "zusammenarbeit"],
+      "kategorie": [
+        "was-lief-gut",
+        "zusammenarbeit"
+      ],
       "frage": "Welcher Moment dieser Woche hat dich besonders stolz auf das Team gemacht?",
       "hat_antwort": false,
       "sprache": "de",
@@ -86,12 +302,116 @@
       "version": "1",
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
-      "updated_at": "2026-04-05T10:00:00Z"
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "retro-0002",
+      "ziel": "retro",
+      "kategorie": [
+        "was-lief-schlecht",
+        "prozess"
+      ],
+      "frage": "Welcher Prozessschritt hat in dieser Iteration am meisten Reibung verursacht?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "retro-0003",
+      "ziel": "retro",
+      "kategorie": [
+        "lernen"
+      ],
+      "frage": "Was hast du in den letzten zwei Wochen gelernt, das du vorher nicht wusstest — fachlich oder persönlich?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "retro-0004",
+      "ziel": "retro",
+      "kategorie": [
+        "aktion",
+        "prozess"
+      ],
+      "frage": "Welches eine Experiment wollen wir im nächsten Sprint starten, um den auffälligsten Pain Point anzugehen?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "retro-0005",
+      "ziel": "retro",
+      "kategorie": [
+        "was-lief-gut"
+      ],
+      "frage": "Was hat sich seit der letzten Retro spürbar verbessert, und wem ist das zu verdanken?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "retro-0006",
+      "ziel": "retro",
+      "kategorie": [
+        "stimmung",
+        "zusammenarbeit"
+      ],
+      "frage": "Wie war die Stimmung im Team in dieser Iteration — und was hat sie am stärksten beeinflusst?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "retro-0007",
+      "ziel": "retro",
+      "kategorie": [
+        "was-lief-schlecht",
+        "aktion"
+      ],
+      "frage": "Welche Dinge tun wir aus reiner Gewohnheit, obwohl sie uns nicht mehr nützen?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
     },
     {
       "id": "impuls-0001",
       "ziel": "impuls",
-      "kategorie": ["perspektivwechsel", "reflexion"],
+      "kategorie": [
+        "perspektivwechsel",
+        "reflexion"
+      ],
       "frage": "Stell dir vor, dein heutiges Problem wäre ein Geschenk. Was würde in der Verpackung stecken?",
       "hat_antwort": false,
       "sprache": "de",
@@ -99,22 +419,465 @@
       "version": "1",
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
-      "updated_at": "2026-04-05T10:00:00Z"
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
     },
     {
-      "id": "learning-0001",
-      "ziel": "learning",
-      "kategorie": ["modell", "theorie"],
-      "frage": "Was besagt das Eisberg-Modell der Kommunikation nach Ruch & Zimbardo?",
-      "hat_antwort": true,
-      "antwort": "Nur ein kleiner Teil der Kommunikation (ca. 20 %) ist sichtbar — Sachinhalte und Worte. Der Großteil (ca. 80 %) liegt unter der Oberfläche: Gefühle, Werte, Motive und Beziehungsebene. Effektive Kommunikation erfordert Bewusstsein für beide Ebenen.",
+      "id": "impuls-0002",
+      "ziel": "impuls",
+      "kategorie": [
+        "kreativitaet",
+        "perspektivwechsel"
+      ],
+      "frage": "Wenn du dein aktuelles Projekt einem zehnjährigen Kind erklären müsstest — welchen Satz würdest du sagen?",
+      "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
       "version": "1",
       "status": "published",
-      "link": "https://de.wikipedia.org/wiki/Eisbergmodell",
       "created_at": "2026-04-05T10:00:00Z",
-      "updated_at": "2026-04-05T10:00:00Z"
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "impuls-0003",
+      "ziel": "impuls",
+      "kategorie": [
+        "entscheidung",
+        "werte"
+      ],
+      "frage": "Welche Entscheidung schiebst du gerade vor dir her — und was würde sich ändern, wenn du sie heute träfest?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "impuls-0004",
+      "ziel": "impuls",
+      "kategorie": [
+        "fokus",
+        "reflexion"
+      ],
+      "frage": "Wenn du in einem Jahr zurückblickst: Welche drei Dinge sollten bis dahin passiert sein?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "impuls-0005",
+      "ziel": "impuls",
+      "kategorie": [
+        "werte"
+      ],
+      "frage": "Was würdest du tun, wenn du wüsstest, dass du nicht scheitern kannst?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "impuls-0006",
+      "ziel": "impuls",
+      "kategorie": [
+        "kreativitaet",
+        "entscheidung"
+      ],
+      "frage": "Wenn du das Budget verdreifachen könntest, aber das Team halbieren müsstest — wofür würdest du dich entscheiden?",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion"
+    },
+    {
+      "id": "learning-0001",
+      "ziel": "learning",
+      "kategorie": [
+        "modell",
+        "theorie"
+      ],
+      "frage": "Was besagt das Eisberg-Modell der Kommunikation?",
+      "hat_antwort": true,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "antwort": "Nur etwa 20% der Kommunikation sind sichtbar (Sachebene: Worte, Fakten). Die restlichen 80% liegen unter der Oberfläche: Gefühle, Werte, Motive und Beziehungsebene. Effektive Kommunikation erfordert Bewusstsein für beide Ebenen.",
+      "link": "https://de.wikipedia.org/wiki/Eisbergmodell"
+    },
+    {
+      "id": "learning-0002",
+      "ziel": "learning",
+      "kategorie": [
+        "methode",
+        "praxis"
+      ],
+      "frage": "Was unterscheidet eine SMART-Zielformulierung von einer unscharfen Zielformulierung?",
+      "hat_antwort": true,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "antwort": "SMART-Ziele sind Spezifisch, Messbar, Attraktiv (oder Akzeptiert), Realistisch und Terminiert. Statt 'Wir wollen besser werden' heißt es 'Wir senken die Fehlerquote bis 30.06. von 4% auf 2% durch tägliche Code-Reviews'."
+    },
+    {
+      "id": "learning-0003",
+      "ziel": "learning",
+      "kategorie": [
+        "modell"
+      ],
+      "frage": "Was beschreibt die Tuckman-Phasen der Teamentwicklung?",
+      "hat_antwort": true,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "antwort": "Forming (Orientierung), Storming (Konflikt), Norming (Vertragsbildung), Performing (Leistung) und Adjourning (Auflösung). Bruce Tuckman entwickelte das Modell 1965. Teams durchlaufen diese Phasen meist nicht linear, sondern springen zurück, wenn sich Zusammensetzung oder Aufgabe ändern."
+    },
+    {
+      "id": "learning-0004",
+      "ziel": "learning",
+      "kategorie": [
+        "tool",
+        "praxis"
+      ],
+      "frage": "Was ist der Kerngedanke der 'Eisenhower-Matrix' für Zeitmanagement?",
+      "hat_antwort": true,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "antwort": "Aufgaben werden nach zwei Dimensionen sortiert: dringend vs. nicht dringend, wichtig vs. nicht wichtig. Daraus ergeben sich vier Quadranten: sofort tun (wichtig+dringend), planen (wichtig+nicht dringend), delegieren (nicht wichtig+dringend), eliminieren (nicht wichtig+nicht dringend). Die meisten Menschen unterschätzen Quadrant 2."
+    },
+    {
+      "id": "learning-0005",
+      "ziel": "learning",
+      "kategorie": [
+        "theorie",
+        "transfer"
+      ],
+      "frage": "Was sind die drei Grundannahmen der Selbstbestimmungstheorie nach Deci & Ryan?",
+      "hat_antwort": true,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "antwort": "Menschen haben drei psychologische Grundbedürfnisse: Autonomie (selbstbestimmt handeln), Kompetenz (wirksam sein) und soziale Eingebundenheit (zugehörig sein). Werden alle drei erfüllt, entsteht intrinsische Motivation. Das Modell ist die Basis für viele moderne Führungsansätze.",
+      "link": "https://de.wikipedia.org/wiki/Selbstbestimmungstheorie"
+    },
+    {
+      "id": "learning-0006",
+      "ziel": "learning",
+      "kategorie": [
+        "methode"
+      ],
+      "frage": "Was ist die 'Five Whys'-Technik, und wofür wird sie eingesetzt?",
+      "hat_antwort": true,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "Sakichi Toyoda",
+      "antwort": "Eine Root-Cause-Analyse-Methode aus dem Toyota-Produktionssystem: Bei einem Problem fragt man fünfmal nacheinander 'Warum?', um von Symptomen zur tatsächlichen Ursache zu gelangen. Die Zahl fünf ist eine Faustregel; oft reichen drei oder man braucht sieben."
+    },
+    {
+      "id": "funfact-0001",
+      "ziel": "funfact",
+      "kategorie": [
+        "natur"
+      ],
+      "frage": "Wie viele Herzen hat ein Oktopus?",
+      "hat_antwort": true,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "antwort": "Drei. Zwei pumpen Blut durch die Kiemen, das dritte durch den restlichen Körper — und es stoppt beim Schwimmen, weshalb Oktopoden lieber kriechen.",
+      "link": "https://de.wikipedia.org/wiki/Kraken"
+    },
+    {
+      "id": "funfact-0002",
+      "ziel": "funfact",
+      "kategorie": [
+        "sprache"
+      ],
+      "frage": "Welches ist das längste Wort, das jemals offiziell in der deutschen Sprache verwendet wurde?",
+      "hat_antwort": true,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "antwort": "'Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz' (63 Buchstaben) — ein Gesetzesname aus Mecklenburg-Vorpommern, 1999 in Kraft getreten, 2013 wieder abgeschafft. Damit verschwand auch das Wort aus der Amtssprache.",
+      "link": "https://de.wikipedia.org/wiki/Rindfleischetikettierungs%C3%BCberwachungsaufgaben%C3%BCbertragungsgesetz"
+    },
+    {
+      "id": "funfact-0003",
+      "ziel": "funfact",
+      "kategorie": [
+        "geschichte"
+      ],
+      "frage": "Wie lange dauerte der kürzeste Krieg der Weltgeschichte?",
+      "hat_antwort": true,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "antwort": "38 Minuten. Der Britisch-Sansibarische Krieg vom 27. August 1896 zwischen dem Vereinigten Königreich und dem Sultanat Sansibar endete nach weniger als einer Stunde Bombardement.",
+      "link": "https://de.wikipedia.org/wiki/Britisch-Sansibarischer_Krieg"
+    },
+    {
+      "id": "funfact-0004",
+      "ziel": "funfact",
+      "kategorie": [
+        "wissenschaft"
+      ],
+      "frage": "Warum können Giraffen nicht husten?",
+      "hat_antwort": true,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "antwort": "Das ist ein Mythos — sie können es, aber es sieht anders aus als bei uns. Spannender ist: Giraffen haben mit etwa 6 Kilogramm das schwerste Herz aller Landtiere und einen Blutdruck, der doppelt so hoch ist wie beim Menschen, um Blut bis ins Hirn zu pumpen."
+    },
+    {
+      "id": "funfact-0005",
+      "ziel": "funfact",
+      "kategorie": [
+        "technik"
+      ],
+      "frage": "Wie viel Speicherplatz hatte der Bordcomputer, der Apollo 11 zum Mond brachte?",
+      "hat_antwort": true,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "antwort": "Etwa 64 KByte RAM und 4 KByte ROM. Ein moderner Taschenrechner hat mehr Rechenleistung, und ein einzelnes Foto auf dem Smartphone ist oft größer als der gesamte Quellcode der Apollo Guidance Computer zusammen.",
+      "link": "https://de.wikipedia.org/wiki/Apollo_Guidance_Computer"
+    },
+    {
+      "id": "funfact-0006",
+      "ziel": "funfact",
+      "kategorie": [
+        "alltag"
+      ],
+      "frage": "Warum sind Bananen eigentlich Beeren, Erdbeeren aber nicht?",
+      "hat_antwort": true,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "antwort": "Botanisch definiert sich eine Beere als Frucht, die aus einem einzigen Fruchtknoten entsteht und eine fleischige Schale mit darin eingeschlossenen Samen hat — das trifft auf Bananen zu. Erdbeeren dagegen sind Sammelnussfrüchte: Die 'Samen' außen sind die eigentlichen Früchte, der rote Teil ist der verdickte Blütenboden."
+    },
+    {
+      "id": "funfact-0007",
+      "ziel": "funfact",
+      "kategorie": [
+        "natur"
+      ],
+      "frage": "Wie viele Farben kann das menschliche Auge unterscheiden?",
+      "hat_antwort": true,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "antwort": "Schätzungen gehen von etwa 2 bis 10 Millionen Farbtönen aus. Ein Fangschreckenkrebs (Mantis Shrimp) hingegen hat 16 Arten von Farbrezeptoren (wir haben drei) — und sieht trotzdem Farben vermutlich nicht so differenziert wie wir, weil sein Gehirn sie anders verarbeitet."
+    },
+    {
+      "id": "funfact-0008",
+      "ziel": "funfact",
+      "kategorie": [
+        "geschichte",
+        "alltag"
+      ],
+      "frage": "Seit wann gibt es die Zahnbürste in ihrer heutigen Form?",
+      "hat_antwort": true,
+      "sprache": "de",
+      "lizenz": "CC-BY-4.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "antwort": "Die erste Massenproduktion startete 1780 in England durch William Addis, der im Gefängnis auf die Idee kam, einen Knochen mit Borsten zu versehen. Vorläufer mit Schweineborsten auf Bambusstielen gab es aber schon im China des 15. Jahrhunderts."
+    },
+    {
+      "id": "zitat-0001",
+      "ziel": "zitat",
+      "kategorie": [
+        "lernen",
+        "wandel"
+      ],
+      "frage": "Wenn du immer nur das tust, was du schon immer getan hast, wirst du immer nur das bekommen, was du schon immer bekommen hast.",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC0-1.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "quelle": "Henry Ford (zugeschrieben)"
+    },
+    {
+      "id": "zitat-0002",
+      "ziel": "zitat",
+      "kategorie": [
+        "fuehrung",
+        "motivation"
+      ],
+      "frage": "Kultur frisst Strategie zum Frühstück.",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC0-1.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "quelle": "Peter Drucker (zugeschrieben)"
+    },
+    {
+      "id": "zitat-0003",
+      "ziel": "zitat",
+      "kategorie": [
+        "zusammenarbeit"
+      ],
+      "frage": "Wenn du schnell gehen willst, geh allein. Wenn du weit gehen willst, geh gemeinsam.",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC0-1.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "quelle": "Afrikanisches Sprichwort"
+    },
+    {
+      "id": "zitat-0004",
+      "ziel": "zitat",
+      "kategorie": [
+        "wandel",
+        "lernen"
+      ],
+      "frage": "Der einzige Weg, großartige Arbeit zu leisten, ist zu lieben, was man tut.",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC0-1.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "quelle": "Steve Jobs, Stanford Commencement 2005"
+    },
+    {
+      "id": "zitat-0005",
+      "ziel": "zitat",
+      "kategorie": [
+        "lebensweisheit",
+        "humor"
+      ],
+      "frage": "Erfahrung ist das, was man bekommt, wenn man nicht bekommt, was man wollte.",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC0-1.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "quelle": "Randy Pausch"
+    },
+    {
+      "id": "zitat-0006",
+      "ziel": "zitat",
+      "kategorie": [
+        "motivation",
+        "wandel"
+      ],
+      "frage": "Wer immer tut, was er schon kann, bleibt immer das, was er schon ist.",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC0-1.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "quelle": "Henry Ford (zugeschrieben)"
+    },
+    {
+      "id": "zitat-0007",
+      "ziel": "zitat",
+      "kategorie": [
+        "fuehrung"
+      ],
+      "frage": "Leadership is not about being in charge. It's about taking care of those in your charge.",
+      "hat_antwort": false,
+      "sprache": "de",
+      "lizenz": "CC0-1.0",
+      "version": "1",
+      "status": "published",
+      "created_at": "2026-04-05T10:00:00Z",
+      "updated_at": "2026-04-05T10:00:00Z",
+      "autor": "eLeDia Redaktion",
+      "quelle": "Simon Sinek"
     }
   ]
 }
