@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "bundle_id": "eledia-default",
-  "bundle_version": "2026.04.2",
+  "bundle_version": "2026.04.3",
   "generated_at": "2026-04-05T12:00:00Z",
   "language": "de",
   "questions": [
@@ -13,6 +13,14 @@
         "energie"
       ],
       "frage": "Auf einer Skala von 1 bis 10: Wie viel Energie bringst du heute mit?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -30,6 +38,14 @@
         "eisbrecher"
       ],
       "frage": "Welches Buch, welcher Film oder welche Serie hat dich zuletzt überrascht — und warum?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -47,6 +63,14 @@
         "fokus"
       ],
       "frage": "Was ist die eine Sache, die diesen Tag zu einem guten Tag macht, wenn du sie heute schaffst?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -63,6 +87,14 @@
         "stimmung"
       ],
       "frage": "Wenn dein heutiger Gemütszustand ein Wetterbericht wäre — wie sähe die Vorhersage aus?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -80,6 +112,14 @@
         "kennenlernen"
       ],
       "frage": "Mit wem im Team hattest du in den letzten Tagen den spannendsten Austausch, und worüber?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -96,6 +136,14 @@
         "persoenliche-entwicklung"
       ],
       "frage": "Was hast du in den letzten zwei Wochen ausprobiert, was du vorher noch nie gemacht hast?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -112,6 +160,14 @@
         "eisbrecher"
       ],
       "frage": "Wenn du heute einen Superheldennamen tragen müsstest, basierend auf deiner Stimmung: Wie würdest du heißen?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -129,6 +185,14 @@
         "arbeitsmodus"
       ],
       "frage": "Was lenkt dich gerade am meisten ab, und wie kannst du es bis zum Ende des Meetings parken?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -146,6 +210,14 @@
         "stimmung"
       ],
       "frage": "Wenn du deine heutige Energie als Farbe darstellen müsstest — welche wäre es und warum?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -163,6 +235,14 @@
         "aktion"
       ],
       "frage": "Was ist der eine konkrete Schritt, den du bis zum nächsten Treffen umsetzen willst?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -180,6 +260,14 @@
         "verbesserung"
       ],
       "frage": "Was würdest du beim nächsten Mal anders machen, damit wir gemeinsam produktiver sind?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -197,6 +285,14 @@
         "beziehung"
       ],
       "frage": "Wem im Team möchtest du heute ein ehrliches Dankeschön für etwas Konkretes aussprechen?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -214,6 +310,14 @@
         "energie"
       ],
       "frage": "Wie fühlst du dich jetzt im Vergleich zum Beginn des Meetings?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -230,6 +334,14 @@
         "ausblick"
       ],
       "frage": "Was nimmst du aus diesem Termin mit, das du noch heute Abend jemandem erzählen möchtest?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -247,6 +359,14 @@
         "verbesserung"
       ],
       "frage": "Welche eine Entscheidung ist hier gefallen, und wer ist dafür verantwortlich, sie nachzuverfolgen?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -263,6 +383,14 @@
         "feedback"
       ],
       "frage": "Was war heute besonders wertvoll für dich — und was hätte ruhig weggelassen werden können?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -279,6 +407,14 @@
         "wertschaetzung"
       ],
       "frage": "Welcher Beitrag aus der Runde hat dich am meisten zum Nachdenken gebracht?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -296,6 +432,14 @@
         "zusammenarbeit"
       ],
       "frage": "Welcher Moment dieser Woche hat dich besonders stolz auf das Team gemacht?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -313,6 +457,14 @@
         "prozess"
       ],
       "frage": "Welcher Prozessschritt hat in dieser Iteration am meisten Reibung verursacht?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -329,6 +481,14 @@
         "lernen"
       ],
       "frage": "Was hast du in den letzten zwei Wochen gelernt, das du vorher nicht wusstest — fachlich oder persönlich?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -346,6 +506,14 @@
         "prozess"
       ],
       "frage": "Welches eine Experiment wollen wir im nächsten Sprint starten, um den auffälligsten Pain Point anzugehen?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -362,6 +530,14 @@
         "was-lief-gut"
       ],
       "frage": "Was hat sich seit der letzten Retro spürbar verbessert, und wem ist das zu verdanken?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -379,6 +555,14 @@
         "zusammenarbeit"
       ],
       "frage": "Wie war die Stimmung im Team in dieser Iteration — und was hat sie am stärksten beeinflusst?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -396,6 +580,14 @@
         "aktion"
       ],
       "frage": "Welche Dinge tun wir aus reiner Gewohnheit, obwohl sie uns nicht mehr nützen?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -413,6 +605,16 @@
         "reflexion"
       ],
       "frage": "Stell dir vor, dein heutiges Problem wäre ein Geschenk. Was würde in der Verpackung stecken?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -430,6 +632,17 @@
         "perspektivwechsel"
       ],
       "frage": "Wenn du dein aktuelles Projekt einem zehnjährigen Kind erklären müsstest — welchen Satz würdest du sagen?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "grundschule",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -447,6 +660,16 @@
         "werte"
       ],
       "frage": "Welche Entscheidung schiebst du gerade vor dir her — und was würde sich ändern, wenn du sie heute träfest?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -464,6 +687,16 @@
         "reflexion"
       ],
       "frage": "Wenn du in einem Jahr zurückblickst: Welche drei Dinge sollten bis dahin passiert sein?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -480,6 +713,16 @@
         "werte"
       ],
       "frage": "Was würdest du tun, wenn du wüsstest, dass du nicht scheitern kannst?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -497,6 +740,16 @@
         "entscheidung"
       ],
       "frage": "Wenn du das Budget verdreifachen könntest, aber das Team halbieren müsstest — wofür würdest du dich entscheiden?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -514,6 +767,14 @@
         "theorie"
       ],
       "frage": "Was besagt das Eisberg-Modell der Kommunikation?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": true,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -533,6 +794,14 @@
         "praxis"
       ],
       "frage": "Was unterscheidet eine SMART-Zielformulierung von einer unscharfen Zielformulierung?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": true,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -550,6 +819,14 @@
         "modell"
       ],
       "frage": "Was beschreibt die Tuckman-Phasen der Teamentwicklung?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": true,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -568,6 +845,14 @@
         "praxis"
       ],
       "frage": "Was ist der Kerngedanke der 'Eisenhower-Matrix' für Zeitmanagement?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": true,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -586,6 +871,14 @@
         "transfer"
       ],
       "frage": "Was sind die drei Grundannahmen der Selbstbestimmungstheorie nach Deci & Ryan?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": true,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -604,6 +897,14 @@
         "methode"
       ],
       "frage": "Was ist die 'Five Whys'-Technik, und wofür wird sie eingesetzt?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule"
+      ],
       "hat_antwort": true,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -621,6 +922,17 @@
         "natur"
       ],
       "frage": "Wie viele Herzen hat ein Oktopus?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "grundschule",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": true,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -639,6 +951,17 @@
         "sprache"
       ],
       "frage": "Welches ist das längste Wort, das jemals offiziell in der deutschen Sprache verwendet wurde?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "grundschule",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": true,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -657,6 +980,17 @@
         "geschichte"
       ],
       "frage": "Wie lange dauerte der kürzeste Krieg der Weltgeschichte?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "grundschule",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": true,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -675,6 +1009,17 @@
         "wissenschaft"
       ],
       "frage": "Warum können Giraffen nicht husten?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "grundschule",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": true,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -692,6 +1037,17 @@
         "technik"
       ],
       "frage": "Wie viel Speicherplatz hatte der Bordcomputer, der Apollo 11 zum Mond brachte?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "grundschule",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": true,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -710,6 +1066,17 @@
         "alltag"
       ],
       "frage": "Warum sind Bananen eigentlich Beeren, Erdbeeren aber nicht?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "grundschule",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": true,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -727,6 +1094,17 @@
         "natur"
       ],
       "frage": "Wie viele Farben kann das menschliche Auge unterscheiden?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "grundschule",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": true,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -745,6 +1123,17 @@
         "alltag"
       ],
       "frage": "Seit wann gibt es die Zahnbürste in ihrer heutigen Form?",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "grundschule",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": true,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
@@ -763,6 +1152,16 @@
         "wandel"
       ],
       "frage": "Wenn du immer nur das tust, was du schon immer getan hast, wirst du immer nur das bekommen, was du schon immer bekommen hast.",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC0-1.0",
@@ -781,6 +1180,16 @@
         "motivation"
       ],
       "frage": "Kultur frisst Strategie zum Frühstück.",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC0-1.0",
@@ -798,6 +1207,16 @@
         "zusammenarbeit"
       ],
       "frage": "Wenn du schnell gehen willst, geh allein. Wenn du weit gehen willst, geh gemeinsam.",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC0-1.0",
@@ -816,6 +1235,16 @@
         "lernen"
       ],
       "frage": "Der einzige Weg, großartige Arbeit zu leisten, ist zu lieben, was man tut.",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC0-1.0",
@@ -834,6 +1263,16 @@
         "humor"
       ],
       "frage": "Erfahrung ist das, was man bekommt, wenn man nicht bekommt, was man wollte.",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC0-1.0",
@@ -852,6 +1291,16 @@
         "wandel"
       ],
       "frage": "Wer immer tut, was er schon kann, bleibt immer das, was er schon ist.",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC0-1.0",
@@ -869,6 +1318,16 @@
         "fuehrung"
       ],
       "frage": "Leadership is not about being in charge. It's about taking care of those in your charge.",
+      "zielgruppe": [
+        "fuehrungskraefte",
+        "team"
+      ],
+      "kontext": [
+        "arbeit",
+        "hochschule",
+        "privat",
+        "schule"
+      ],
       "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC0-1.0",
