@@ -1,0 +1,282 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eledia.de/schemas/elediacheckin/content-1.0.json",
+  "title": "eLeDia Checkin Content Bundle",
+  "description": "Bundle-Format für Fragen/Karten des mod_elediacheckin Plugins. Ein Bundle entspricht einer JSON-Datei, die vom Plugin via bundled/git/eLeDia-Quelle importiert wird.",
+  "type": "object",
+  "required": ["schema_version", "bundle_id", "bundle_version", "language", "questions"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "description": "Version des Schemas selbst (semver). Das Plugin lehnt Bundles ab, deren Major-Version es nicht kennt.",
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+(\\.\\d+)?$"
+    },
+    "bundle_id": {
+      "description": "Eindeutige Kennung des Bundles, z.B. 'eledia-default' oder 'kunde-muster-intern'.",
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{1,63}$"
+    },
+    "bundle_version": {
+      "description": "Version dieses konkreten Bundles (semver oder Datum wie 2026.04.1).",
+      "type": "string",
+      "minLength": 1
+    },
+    "generated_at": {
+      "description": "Zeitpunkt der Bundle-Erstellung (ISO 8601).",
+      "type": "string",
+      "format": "date-time"
+    },
+    "language": {
+      "description": "Hauptsprache des Bundles als ISO-639-1 Code. Einzelne Fragen dürfen per 'sprache' abweichen (z.B. für englische Zitate im deutschen Bundle).",
+      "type": "string",
+      "pattern": "^[a-z]{2}$"
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/question" }
+    }
+  },
+
+  "$defs": {
+    "ziel": {
+      "type": "string",
+      "enum": ["impuls", "checkin", "checkout", "retro", "learning", "funfact", "zitat"]
+    },
+
+    "status": {
+      "type": "string",
+      "enum": ["draft", "published", "deprecated"],
+      "default": "published"
+    },
+
+    "question": {
+      "type": "object",
+      "required": ["id", "ziel", "kategorie", "frage", "hat_antwort", "sprache", "lizenz", "version", "status", "created_at", "updated_at"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "description": "Stabile, eindeutige ID innerhalb des Bundles. Wird für Update/Delete-Diffs beim Sync genutzt. Slug-Format oder UUID.",
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"
+        },
+        "ziel": {
+          "description": "Einsatzzweck der Karte. Single-Select — Fragen, die in mehrere Ziele passen, werden mehrfach angelegt (mit eigener id).",
+          "$ref": "#/$defs/ziel"
+        },
+        "kategorie": {
+          "description": "Mehrfach-Auswahl. Erlaubte Werte hängen vom 'ziel' ab (siehe allOf weiter unten).",
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "frage": {
+          "description": "Der eigentliche Fragetext / Kartentext, der Teilnehmer:innen angezeigt wird.",
+          "type": "string",
+          "minLength": 1
+        },
+        "hat_antwort": {
+          "description": "true = es gibt eine Antwort auf der Rückseite der Karte. false = reine Impulsfrage ohne Auflösung.",
+          "type": "boolean"
+        },
+        "antwort": {
+          "description": "Antworttext (Rückseite). Pflicht wenn hat_antwort=true, sonst weggelassen.",
+          "type": "string",
+          "minLength": 1
+        },
+        "sprache": {
+          "description": "ISO-639-1 Sprachcode dieser einzelnen Frage.",
+          "type": "string",
+          "pattern": "^[a-z]{2}$"
+        },
+        "autor": {
+          "description": "Autor:in der Karte (freier Text). Optional.",
+          "type": "string"
+        },
+        "quelle": {
+          "description": "Herkunft des Inhalts — vor allem bei Zitaten (Buchtitel, Sprecher:in, Jahr). Unterscheidet sich von 'autor' (= Autor der Karte) und 'link' (= weiterführend).",
+          "type": "string"
+        },
+        "lizenz": {
+          "description": "SPDX-Kennung oder 'proprietary'. Erlaubt Nachnutzung rechtssicher einzuordnen.",
+          "type": "string",
+          "examples": ["CC-BY-4.0", "CC0-1.0", "proprietary"]
+        },
+        "version": {
+          "description": "Version dieser einzelnen Frage. Bei jeder inhaltlichen Änderung hochzählen.",
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "description": "draft = nicht beim Kunden ausspielen, published = normal, deprecated = nicht mehr empfehlen (Plugin zeigt sie nicht mehr an).",
+          "$ref": "#/$defs/status"
+        },
+        "link": {
+          "description": "Optionaler weiterführender Link. Wird nur angezeigt wenn gesetzt.",
+          "type": "string",
+          "format": "uri"
+        },
+        "media": {
+          "description": "Optionales Bild zur Karte (URL oder relativer Pfad innerhalb des Bundles).",
+          "type": "string"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+
+      "allOf": [
+        {
+          "if": { "properties": { "hat_antwort": { "const": true } } },
+          "then": { "required": ["antwort"] }
+        },
+        {
+          "if": { "properties": { "ziel": { "const": "checkin" } } },
+          "then": {
+            "properties": {
+              "kategorie": {
+                "items": {
+                  "enum": [
+                    "kennenlernen",
+                    "eisbrecher",
+                    "arbeitsmodus",
+                    "fokus",
+                    "persoenliche-entwicklung",
+                    "stimmung",
+                    "energie",
+                    "beziehung"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "ziel": { "const": "checkout" } } },
+          "then": {
+            "properties": {
+              "kategorie": {
+                "items": {
+                  "enum": [
+                    "beziehung",
+                    "feedback",
+                    "verbesserung",
+                    "aktion",
+                    "ausblick",
+                    "stimmung",
+                    "energie",
+                    "wertschaetzung"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "ziel": { "const": "retro" } } },
+          "then": {
+            "properties": {
+              "kategorie": {
+                "items": {
+                  "enum": [
+                    "was-lief-gut",
+                    "was-lief-schlecht",
+                    "lernen",
+                    "aktion",
+                    "zusammenarbeit",
+                    "prozess",
+                    "stimmung"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "ziel": { "const": "impuls" } } },
+          "then": {
+            "properties": {
+              "kategorie": {
+                "items": {
+                  "enum": [
+                    "kreativitaet",
+                    "perspektivwechsel",
+                    "reflexion",
+                    "fokus",
+                    "entscheidung",
+                    "werte"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "ziel": { "const": "learning" } } },
+          "then": {
+            "properties": {
+              "kategorie": {
+                "items": {
+                  "enum": [
+                    "methode",
+                    "theorie",
+                    "praxis",
+                    "transfer",
+                    "tool",
+                    "modell"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "ziel": { "const": "funfact" } } },
+          "then": {
+            "properties": {
+              "kategorie": {
+                "items": {
+                  "enum": [
+                    "wissenschaft",
+                    "geschichte",
+                    "sprache",
+                    "natur",
+                    "technik",
+                    "alltag"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "ziel": { "const": "zitat" } } },
+          "then": {
+            "properties": {
+              "kategorie": {
+                "items": {
+                  "enum": [
+                    "fuehrung",
+                    "motivation",
+                    "wandel",
+                    "lernen",
+                    "zusammenarbeit",
+                    "lebensweisheit",
+                    "humor"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

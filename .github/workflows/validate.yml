@@ -1,0 +1,66 @@
+name: Validate bundle
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install jsonschema
+        run: pip install "jsonschema>=4.21"
+
+      - name: Validate bundle.json against schema.json
+        run: |
+          python - <<'PY'
+          import json, sys
+          from jsonschema import Draft202012Validator
+
+          with open("schema.json") as f:
+              schema = json.load(f)
+          with open("bundle.json") as f:
+              bundle = json.load(f)
+
+          validator = Draft202012Validator(schema)
+          errors = sorted(validator.iter_errors(bundle), key=lambda e: list(e.path))
+
+          if errors:
+              print(f"FAIL — {len(errors)} validation error(s):")
+              for e in errors:
+                  path = "/".join(str(p) for p in e.path) or "<root>"
+                  print(f"  - {path}: {e.message}")
+              sys.exit(1)
+
+          count = len(bundle.get("questions", []))
+          print(f"OK — {count} questions validate against schema.")
+          print(f"Bundle: {bundle.get('bundle_id')} @ {bundle.get('bundle_version')}")
+          PY
+
+      - name: Check for duplicate question ids
+        run: |
+          python - <<'PY'
+          import json, sys
+          from collections import Counter
+
+          with open("bundle.json") as f:
+              bundle = json.load(f)
+
+          ids = [q["id"] for q in bundle.get("questions", [])]
+          dupes = [i for i, c in Counter(ids).items() if c > 1]
+          if dupes:
+              print("FAIL — duplicate question ids:", dupes)
+              sys.exit(1)
+          print(f"OK — {len(ids)} unique question ids.")
+          PY
