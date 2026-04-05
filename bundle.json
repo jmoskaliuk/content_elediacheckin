@@ -763,157 +763,156 @@
       "id": "learning-0001",
       "ziel": "learning",
       "kategorie": [
-        "modell",
-        "theorie"
+        "tagesreflexion"
       ],
-      "frage": "Was besagt das Eisberg-Modell der Kommunikation?",
+      "frage": "Was ist das Wichtigste, was ich heute gelernt habe?",
       "zielgruppe": [
-        "fuehrungskraefte",
-        "team"
+        "team",
+        "fuehrungskraefte"
       ],
       "kontext": [
         "arbeit",
-        "hochschule"
+        "schule",
+        "hochschule",
+        "privat"
       ],
-      "hat_antwort": true,
+      "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
       "version": "1",
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
       "updated_at": "2026-04-05T10:00:00Z",
-      "autor": "eLeDia Redaktion",
-      "antwort": "Nur etwa 20% der Kommunikation sind sichtbar (Sachebene: Worte, Fakten). Die restlichen 80% liegen unter der Oberfläche: Gefühle, Werte, Motive und Beziehungsebene. Effektive Kommunikation erfordert Bewusstsein für beide Ebenen.",
-      "link": "https://de.wikipedia.org/wiki/Eisbergmodell"
+      "autor": "eLeDia Redaktion"
     },
     {
       "id": "learning-0002",
       "ziel": "learning",
       "kategorie": [
-        "methode",
-        "praxis"
+        "transfer"
       ],
-      "frage": "Was unterscheidet eine SMART-Zielformulierung von einer unscharfen Zielformulierung?",
+      "frage": "Welche eine Erkenntnis von heute will ich morgen konkret ausprobieren — und wo?",
       "zielgruppe": [
-        "fuehrungskraefte",
-        "team"
+        "team",
+        "fuehrungskraefte"
       ],
       "kontext": [
         "arbeit",
+        "schule",
         "hochschule"
       ],
-      "hat_antwort": true,
+      "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
       "version": "1",
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
       "updated_at": "2026-04-05T10:00:00Z",
-      "autor": "eLeDia Redaktion",
-      "antwort": "SMART-Ziele sind Spezifisch, Messbar, Attraktiv (oder Akzeptiert), Realistisch und Terminiert. Statt 'Wir wollen besser werden' heißt es 'Wir senken die Fehlerquote bis 30.06. von 4% auf 2% durch tägliche Code-Reviews'."
+      "autor": "eLeDia Redaktion"
     },
     {
       "id": "learning-0003",
       "ziel": "learning",
       "kategorie": [
-        "modell"
+        "aha"
       ],
-      "frage": "Was beschreibt die Tuckman-Phasen der Teamentwicklung?",
+      "frage": "Welches Aha-Erlebnis hatte ich in dieser Woche — und warum war es überraschend?",
       "zielgruppe": [
-        "fuehrungskraefte",
-        "team"
+        "team",
+        "fuehrungskraefte"
       ],
       "kontext": [
         "arbeit",
-        "hochschule"
+        "schule",
+        "hochschule",
+        "privat"
       ],
-      "hat_antwort": true,
+      "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
       "version": "1",
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
       "updated_at": "2026-04-05T10:00:00Z",
-      "autor": "eLeDia Redaktion",
-      "antwort": "Forming (Orientierung), Storming (Konflikt), Norming (Vertragsbildung), Performing (Leistung) und Adjourning (Auflösung). Bruce Tuckman entwickelte das Modell 1965. Teams durchlaufen diese Phasen meist nicht linear, sondern springen zurück, wenn sich Zusammensetzung oder Aufgabe ändern."
+      "autor": "eLeDia Redaktion"
     },
     {
       "id": "learning-0004",
       "ziel": "learning",
       "kategorie": [
-        "tool",
-        "praxis"
+        "hindernis"
       ],
-      "frage": "Was ist der Kerngedanke der 'Eisenhower-Matrix' für Zeitmanagement?",
+      "frage": "Wo bin ich heute hängen geblieben — und was hätte ich gebraucht, um weiterzukommen?",
       "zielgruppe": [
-        "fuehrungskraefte",
-        "team"
+        "team",
+        "fuehrungskraefte"
       ],
       "kontext": [
         "arbeit",
+        "schule",
         "hochschule"
       ],
-      "hat_antwort": true,
+      "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
       "version": "1",
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
       "updated_at": "2026-04-05T10:00:00Z",
-      "autor": "eLeDia Redaktion",
-      "antwort": "Aufgaben werden nach zwei Dimensionen sortiert: dringend vs. nicht dringend, wichtig vs. nicht wichtig. Daraus ergeben sich vier Quadranten: sofort tun (wichtig+dringend), planen (wichtig+nicht dringend), delegieren (nicht wichtig+dringend), eliminieren (nicht wichtig+nicht dringend). Die meisten Menschen unterschätzen Quadrant 2."
+      "autor": "eLeDia Redaktion"
     },
     {
       "id": "learning-0005",
       "ziel": "learning",
       "kategorie": [
-        "theorie",
-        "transfer"
+        "meta"
       ],
-      "frage": "Was sind die drei Grundannahmen der Selbstbestimmungstheorie nach Deci & Ryan?",
+      "frage": "Wann habe ich zuletzt das Gefühl gehabt, wirklich mühelos zu lernen — was war da anders?",
       "zielgruppe": [
-        "fuehrungskraefte",
-        "team"
+        "team",
+        "fuehrungskraefte"
       ],
       "kontext": [
         "arbeit",
-        "hochschule"
+        "schule",
+        "hochschule",
+        "privat"
       ],
-      "hat_antwort": true,
+      "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
       "version": "1",
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
       "updated_at": "2026-04-05T10:00:00Z",
-      "autor": "eLeDia Redaktion",
-      "antwort": "Menschen haben drei psychologische Grundbedürfnisse: Autonomie (selbstbestimmt handeln), Kompetenz (wirksam sein) und soziale Eingebundenheit (zugehörig sein). Werden alle drei erfüllt, entsteht intrinsische Motivation. Das Modell ist die Basis für viele moderne Führungsansätze.",
-      "link": "https://de.wikipedia.org/wiki/Selbstbestimmungstheorie"
+      "autor": "eLeDia Redaktion"
     },
     {
       "id": "learning-0006",
       "ziel": "learning",
       "kategorie": [
-        "methode"
+        "transfer",
+        "tagesreflexion"
       ],
-      "frage": "Was ist die 'Five Whys'-Technik, und wofür wird sie eingesetzt?",
+      "frage": "Welche kleine Gewohnheit nehme ich mir aus dem Gelernten für die nächste Woche vor?",
       "zielgruppe": [
-        "fuehrungskraefte",
-        "team"
+        "team",
+        "fuehrungskraefte"
       ],
       "kontext": [
         "arbeit",
-        "hochschule"
+        "schule",
+        "hochschule",
+        "privat"
       ],
-      "hat_antwort": true,
+      "hat_antwort": false,
       "sprache": "de",
       "lizenz": "CC-BY-4.0",
       "version": "1",
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
       "updated_at": "2026-04-05T10:00:00Z",
-      "autor": "Sakichi Toyoda",
-      "antwort": "Eine Root-Cause-Analyse-Methode aus dem Toyota-Produktionssystem: Bei einem Problem fragt man fünfmal nacheinander 'Warum?', um von Symptomen zur tatsächlichen Ursache zu gelangen. Die Zahl fünf ist eine Faustregel; oft reichen drei oder man braucht sieben."
+      "autor": "eLeDia Redaktion"
     },
     {
       "id": "funfact-0001",
@@ -1169,7 +1168,7 @@
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
       "updated_at": "2026-04-05T10:00:00Z",
-      "autor": "eLeDia Redaktion",
+      "autor": "Henry Ford (zugeschrieben)",
       "quelle": "Henry Ford (zugeschrieben)"
     },
     {
@@ -1197,7 +1196,7 @@
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
       "updated_at": "2026-04-05T10:00:00Z",
-      "autor": "eLeDia Redaktion",
+      "autor": "Peter Drucker (zugeschrieben)",
       "quelle": "Peter Drucker (zugeschrieben)"
     },
     {
@@ -1224,7 +1223,7 @@
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
       "updated_at": "2026-04-05T10:00:00Z",
-      "autor": "eLeDia Redaktion",
+      "autor": "Afrikanisches Sprichwort",
       "quelle": "Afrikanisches Sprichwort"
     },
     {
@@ -1252,7 +1251,7 @@
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
       "updated_at": "2026-04-05T10:00:00Z",
-      "autor": "eLeDia Redaktion",
+      "autor": "Steve Jobs, Stanford Commencement 2005",
       "quelle": "Steve Jobs, Stanford Commencement 2005"
     },
     {
@@ -1280,7 +1279,7 @@
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
       "updated_at": "2026-04-05T10:00:00Z",
-      "autor": "eLeDia Redaktion",
+      "autor": "Randy Pausch",
       "quelle": "Randy Pausch"
     },
     {
@@ -1308,7 +1307,7 @@
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
       "updated_at": "2026-04-05T10:00:00Z",
-      "autor": "eLeDia Redaktion",
+      "autor": "Henry Ford (zugeschrieben)",
       "quelle": "Henry Ford (zugeschrieben)"
     },
     {
@@ -1335,7 +1334,7 @@
       "status": "published",
       "created_at": "2026-04-05T10:00:00Z",
       "updated_at": "2026-04-05T10:00:00Z",
-      "autor": "eLeDia Redaktion",
+      "autor": "Simon Sinek",
       "quelle": "Simon Sinek"
     }
   ]
